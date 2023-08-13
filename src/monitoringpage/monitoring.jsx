@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './monitor.css';
 
 function Monitoring() {
   const [data, setData] = useState([]);
@@ -43,7 +44,8 @@ function Monitoring() {
 
   return (
     <div className="App">
-      <h1>ThingSpeak Data</h1>
+      <h1>LoRaEnviroLink</h1>
+      <br></br>
       {error ? (
         <p>Error: No new data retrieved for 60 seconds.</p>
       ) : (
@@ -55,6 +57,8 @@ function Monitoring() {
               {feed.field2 !== undefined && ` Humidity Node 1: ${feed.field2},`}
               {feed.field3 !== undefined && ` Temp Node 2: ${feed.field3},`}
               {feed.field4 !== undefined && ` Humidity Node 2: ${feed.field4}`}
+              <br></br>
+              <br></br>
             </li>
           ))}
         </ul>
@@ -64,3 +68,66 @@ function Monitoring() {
 }
 
 export default Monitoring;
+
+
+// import React from 'react'
+// import './monitor.css'
+
+// const Monitor = () => {
+//   return (
+//     <div className="App">
+//     <div className='heads'>
+//       <h1>LoRaEnviroLink</h1>
+//       <br></br>
+//       <br></br>
+//       <p><b>Channel  ID:</b> 2240021</p>
+//       <p><b>Author:</b> mwa0000030766394</p>
+//       <p><b>Created:</b> 12th Aug 2023</p>
+//       <p><b>Access:</b> Private</p>
+//       <p><b>Entries:</b>122</p>
+//       </div>
+//       <br></br>
+//       <div className='boxOut'>
+//       <div className='boxHolder'>
+//       <div className='box'>
+      
+//       <h2 className='heading'>Temperature of Node 1</h2>
+//       <b>22 °C</b>
+//       <div className='boxIn'>
+//       <input type='number' className='limit' placeholder='Upper'></input>
+//       <input type='number' className='limit' placeholder='Lower'></input>
+//       </div>
+//       </div>
+//       <div className='box'>
+//       <h2 className='heading'>Humidity of Node 1</h2>
+//       <b>77 %</b>
+//       <div className='boxIn'>
+//       <input type='number' className='limit' placeholder='Upper'></input>
+//       <input type='number' className='limit' placeholder='Lower'></input>
+//       </div>
+//       </div>
+//       </div>
+//       <div className='boxHolder'>
+//       <div className='box'>
+//       <h2 className='heading'>Temperature of Node 2</h2>
+//       <b>22 °C</b>
+//       <div className='boxIn'>
+//       <input type='number' className='limit' placeholder='Upper'></input>
+//       <input type='number' className='limit' placeholder='Lower'></input>
+//       </div>
+//       </div>
+//       <div className='box'>
+//       <h2 className='heading'>Humidity of Node 2</h2>
+//       <b>77 %</b>
+//       <div className='boxIn'>
+//       <input type='number' className='limit' placeholder='Upper'></input>
+//       <input type='number' className='limit' placeholder='Lower'></input>
+//       </div>
+//       </div>
+//       </div>
+//       </div>
+      
+//     </div>
+//   )
+// }
+// export default Monitor;
