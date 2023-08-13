@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-image: linear-gradient(#f1d3fc,#f389f5 );
+}
+.App{
+    background-image: linear-gradient(#f389f5,#f1d3fc );
+    height:100vh;
+}
+.boxHolder{
+    display: flex;
+    gap: 2rem;
+}
+.boxOut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    /* gap: 2px; */
+    width: 320px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-image: linear-gradient(#fea7ff,#f1d3fc );
+    
+}
+.boxIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+input[type='number']{
+    width: 80px;
+    height: 30px;
+    padding: 3px;
+    font-size: 18px;
+}
+.heads{
+    margin-left: 50px;
+    padding-top: 40px;
+    /* margin-bottom: 10px; */
+}
+.logo{
+    display: flex;
+    gap: 2px;
+}
+.accountLogo{
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.accountImg{
+    border-radius: 50%;
+}
+.alert{
+    padding: 10px;
+    height: 220px;
+    width: 90vw;
+    border: 1px solid black;
+}

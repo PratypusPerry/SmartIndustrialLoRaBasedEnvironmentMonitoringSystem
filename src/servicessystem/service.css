@@ -1,0 +1,181 @@
+.our-services {
+    position: absolute;
+    top: 107px;
+    left: 535px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .desktop-2-child {
+    position: absolute;
+    top: 542px;
+    left: 64px;
+    background: linear-gradient(180deg, #f1d3fc, rgba(241, 211, 252, 0));
+    border: 1px solid #939ea4;
+    box-sizing: border-box;
+    width: 400px;
+    height: 380px;
+  }
+  .simplify-real-time {
+    position: absolute;
+    top: 789px;
+    left: 98px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 332px;
+    height: 100px;
+  }
+  .setup-simplicity {
+    position: absolute;
+    top: 712px;
+    left: 130px;
+    font-size: var(--font-size-11xl);
+    letter-spacing: 0.1px;
+    line-height: 40px;
+    color: var(--color-gray);
+  }
+  .desktop-2-item {
+    position: absolute;
+    top: 542px;
+    left: 520px;
+    background: linear-gradient(180deg, #f1d3fc, rgba(241, 211, 252, 0));
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    width: 400px;
+    height: 380px;
+  }
+  .ease-of-use {
+    position: absolute;
+    top: 712px;
+    left: 628px;
+    font-size: var(--font-size-11xl);
+    letter-spacing: 0.1px;
+    line-height: 40px;
+    color: var(--color-gray);
+  }
+  .desktop-2-inner {
+    position: absolute;
+    top: 575px;
+    left: 670px;
+    border-radius: 50%;
+    background-color: var(--color-fuchsia);
+    width: 100px;
+    height: 100px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 542px;
+    left: 976px;
+    background: linear-gradient(180deg, #f1d3fc, rgba(241, 211, 252, 0));
+    border: 1px solid var(--color-gray);
+    box-sizing: border-box;
+    width: 400px;
+    height: 380px;
+  }
+  .desktop-2-child1,
+  .desktop-2-child2,
+  .ellipse-div {
+    position: absolute;
+    top: 575px;
+    left: 214px;
+    border-radius: 50%;
+    background-color: var(--color-fuchsia);
+    width: 100px;
+    height: 100px;
+  }
+  .desktop-2-child1,
+  .desktop-2-child2 {
+    left: 1126px;
+  }
+  .desktop-2-child2 {
+    top: 397px;
+    left: 596px;
+    border-radius: 600px;
+    width: 248px;
+    height: 74px;
+  }
+  .contact-us {
+    top: 414px;
+    left: 622px;
+    font-size: 32px;
+    color: #fff;
+  }
+  .contact-us,
+  .precise-industrial-temperature,
+  .real-time-alerts {
+    position: absolute;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+  }
+  .precise-industrial-temperature {
+    top: 240px;
+    left: 207px;
+    font-size: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    display: inline-block;
+    width: 1026px;
+    height: 47px;
+  }
+  .real-time-alerts {
+    top: 712px;
+    left: 1039px;
+    font-size: var(--font-size-11xl);
+    color: var(--color-gray);
+  }
+  .effortlessly-safeguard-boiler,
+  .receive-instant-notifications {
+    position: absolute;
+    top: 789px;
+    left: 554px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 332px;
+  }
+  .receive-instant-notifications {
+    left: 1010px;
+    height: 100px;
+  }
+  .connection-broadcasting,
+  .maps-360,
+  .reactions-laughing {
+    position: absolute;
+    height: 4.88%;
+    width: 3.47%;
+    top: 58.59%;
+    right: 79.93%;
+    bottom: 36.52%;
+    left: 16.6%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .connection-broadcasting,
+  .reactions-laughing {
+    right: 16.6%;
+    left: 79.93%;
+  }
+  .reactions-laughing {
+    right: 48.26%;
+    left: 48.26%;
+  }
+  .desktop-2 {
+    position: relative;
+    background: linear-gradient(180deg, #f1d3fc, rgba(255, 255, 255, 0));
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-open-sans);
+  }
+  

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boxHolder{
+    display: flex;
+    gap: 2rem;
+}
+.boxOut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    /* gap: 2px; */
+    width: 320px;
+    height: 220px;
+    border: 1px solid black;
+}
+.boxIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+input[type='number']{
+    width: 80px;
+    height: 30px;
+    padding: 3px;
+    font-size: 18px;
+}
+.heads{
+    margin-left: 30px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}

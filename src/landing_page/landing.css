@@ -1,0 +1,101 @@
+.desktop-1-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #f1d3fc, rgba(179, 180, 183, 0));
+    width: 1440px;
+    height: 1024px;
+  }
+  .loraenvirolink,
+  .smart-industrial-lora {
+    position: absolute;
+    letter-spacing: 0.1px;
+    line-height: 82px;
+    display: inline-block;
+  }
+  .smart-industrial-lora {
+    top: 160px;
+    left: 89px;
+    font-size: 48px;
+    font-family: var(--font-roboto);
+    width: 487px;
+    height: 249px;
+    -webkit-text-stroke: 1px #000;
+  }
+  .loraenvirolink {
+    top: 54px;
+    left: 148px;
+    font-size: 32px;
+    font-family: var(--font-rocknroll-one);
+    width: 335px;
+    height: 73px;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 68px;
+    left: 1191px;
+    border-radius: var(--br-581xl);
+    background-color: #e228e6;
+    width: 168px;
+    height: 46px;
+  }
+  .login {
+    position: absolute;
+    top: 50px;
+    left: 1238px;
+    letter-spacing: 0.1px;
+    line-height: 82px;
+    color: var(--color-white);
+  }
+  .desktop-1-inner {
+    position: absolute;
+    top: 827px;
+    left: 572px;
+    border-radius: var(--br-581xl);
+    width: 291px;
+    height: 66px;
+  }
+  .get-started,
+  .welcome-to-loraenvirolink {
+    position: absolute;
+    letter-spacing: 0.1px;
+    display: inline-block;
+  }
+  .get-started {
+    top: 818px;
+    left: 605px;
+    font-size: 30px;
+    line-height: 82px;
+    color: var(--color-white);
+    text-align: center;
+    width: 229px;
+    height: 75px;
+  }
+  .welcome-to-loraenvirolink {
+    top: 435px;
+    left: 89px;
+    line-height: 40px;
+    color: #4a2a55;
+    width: 1270px;
+    height: 317px;
+  }
+  .screenshot-2023-08-12-at-421-icon {
+    position: absolute;
+    top: 69px;
+    left: 89px;
+    width: 59px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-open-sans);
+  }
+  
